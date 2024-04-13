@@ -12,7 +12,7 @@ import pyarrow.parquet as pq
 import torch
 import torch.distributed as dist
 
-from src import utils
+import utils
 
 
 class Partitioner(ABC):
